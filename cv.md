@@ -2,9 +2,18 @@
 2.  * __Email:__ alexey.shmelkov@gmail.com
     * ___Skype:__ alexey.shmelkov@gmail.com
     * __Telegram:__ @z0mbee
-3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
-Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
-learning new things from everywhere etc.).
+3. 
+    In the modern world, it`s difficult to find truly high-quality and intuitive software. When you find a site or application without a overloaded interface and advertising, it immediately becomes pleasant to your soul, as before when the Internet just appeared and you explored its open spaces. 
+    I want to return this feeling of nostalgia to myself and others.
+
+    I have been working in IT for almost 7 years now.
+    Started with an engineer to set up and repair a computers and related equipment.
+    Then I worked as an assistant of administrator of IT.
+    Then I got a job as implementation engineer of software for a CCTV development company.
+    In the same company I became a manual QA, but it quickly got tired and I began to study automated testing.
+    At the next work, I got a full stack QA (manual + automated), we test a web application.
+    At the moment I want to become a front-end (maybe full stack) web developer and do my best to achieve this goal.
+
 4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
 5. Code examples (LATEST)
 6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
