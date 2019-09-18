@@ -14,7 +14,27 @@
     At the next work, I got a full stack QA (manual + automated), we test a web application.
     At the moment I want to become a front-end (maybe full stack) web developer and do my best to achieve this goal.
 
-4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
+4.  Programming languages: 
+        * Python - basic
+        * JS - basic
+        * C# - low
+        * Java - low
+    Frameworks: 
+        * Selenium
+        * PyTest
+        * Mocha
+    Methodologies:
+        * Unit testing
+        * PageObject model
+        * CI/CD
+        * Agile (Scrum, Kanban)
+    Version control:
+        * Git
+    Tools:
+        * Jira
+        * Bamboo
+        * BitBucket
+        * Confluence
 5. Code examples (LATEST)
 6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
 freelance projects - wherever they had the opportunity to demonstrate skills they have.
