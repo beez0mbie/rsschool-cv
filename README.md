@@ -1,1 +1,1 @@
-# Init
+[CV](https://beez0mbie.github.io/rsschool-cv/cv)
