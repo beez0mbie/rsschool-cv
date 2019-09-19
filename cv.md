@@ -71,6 +71,7 @@ I have been working in IT for almost 7 years now:
 At the moment I want to become a front-end (maybe full stack) web developer and do my best to achieve this goal.
 
 ## Education
+
 | __Higher education:__ |                                                                |
 |-----------------------|----------------------------------------------------------------|
 | _University:_         | Moscow government industrial university (MGIU)                 |
