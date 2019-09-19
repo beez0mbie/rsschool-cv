@@ -35,7 +35,29 @@
         * Bamboo
         * BitBucket
         * Confluence
-5. Code examples (LATEST)
+
+5. The function gets tweet find hashtags into it and return to you clear hashtags without '#' symbol.
+```javascript
+var getHashTags = function (tweet) {
+    
+    var hashTags = tweet.split(' ').filter(isHashTagExist)
+    var clearedHashTags = []
+    
+    hashTags.forEach(clearHashtag)
+
+    function isHashTagExist(word) {
+        return word.startsWith('#')
+    }
+
+    function clearHashtag (item) {
+        if (item.length > 1) {
+            clearedHashTags.push(item.slice(1))
+        }
+    }
+
+    return clearedHashTags
+    };
+```
 6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
 freelance projects - wherever they had the opportunity to demonstrate skills they have.
 Also it would be awesome if you add links to source code)
