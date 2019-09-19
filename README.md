@@ -1,1 +1,1 @@
-[CV](https://beez0mbie.github.io/rsschool-cv/cv.md)
+[CV Front-End developer](https://beez0mbie.github.io/rsschool-cv/cv.md)
