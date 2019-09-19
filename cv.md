@@ -5,7 +5,7 @@ Alexey Shmelkov
 
 ## Contact Information
 * __Email:__ alexey.shmelkov@gmail.com
-* ___Skype:__ alexey.shmelkov@gmail.com
+* __Skype:__ alexey.shmelkov@gmail.com
 * __Telegram:__ @z0mbee
 
 ## Summary Goal
