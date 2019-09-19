@@ -85,6 +85,6 @@ At the moment I want to become a front-end (maybe full stack) web developer and 
 | _Practice book:_          | "Head First JavaScript Programming"                          |                                    |
 | _Interactive book:_       | [LearnJavascript](https://learn.javascript.ru/)              |(in progress)                       |
 
-## English level##
+## English level
 Started practice on [SkyEng](http://skyeng.ru/) with pre Intermediate level about 1 year ago. 
 At now continue education with Intermediate level.
