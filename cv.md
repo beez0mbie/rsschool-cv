@@ -60,4 +60,13 @@ var getHashTags = function (tweet) {
     At the moment I want to become a front-end (maybe full stack) web developer and do my best to achieve this goal.
 
 7. Education (including courses, seminars, lectures, online learning)
-8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
+    Higher education:
+        University: Moscow government industrial university (MGIU)
+        Faculty: Economics, Management and Information Technology
+        Specialization: Organization and technology of information security/protection
+    Additional education:
+        Course: [Software-testing](http://Software-testing.ru), 'Intensive course for beginner QA'
+        Practice book: 'Head First JavaScript Programming'
+        Interactive book: [LearnJavascript](http://learnJavascript.ru) (in progress)
+
+8. Started practice on [SkyEng](http://skyeng.ru/) with pre Intermediate level about 1 year ago. At now continue education with Intermediate level.
