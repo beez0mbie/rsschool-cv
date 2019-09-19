@@ -67,22 +67,23 @@ I have been working in IT for almost 7 years now:
 * Then I got a job as implementation engineer of software for a CCTV development company.
 * In the same company I became a manual QA, but it quickly got tired and I began to study automated testing.
 * At the next company, I've been as a full stack QA (manual + automated). We test the web application, which developed on React/Redux stack.
+
 At the moment I want to become a front-end (maybe full stack) web developer and do my best to achieve this goal.
 
 ## Education
-__Higher education:__     | 
-------------------------- | ------------
-_University:_         | Moscow government industrial university (MGIU)
-_Faculty:_            | Economics, Management and Information Technology
-_Specialization:_     | Organization and technology of information security/protection
+| __Higher education:__ |                                                                |
+|-----------------------|----------------------------------------------------------------|
+| _University:_         | Moscow government industrial university (MGIU)                 |
+| _Faculty:_            | Economics, Management and Information Technology               |  
+| _Specialization:_     | Organization and technology of information security/protection |
 
-__Additional education:__ | 
-------------------------- | ---------
-_Course:_             |[Software-testing](http://Software-testing.ru)      |'Intensive course for beginner QA'      
-                      |[Codeacademy](https://www.codecademy.com/profiles/beez0mbie)| 'Introduction to HTML' 
-                      |                                                            | 'Learn CSS'
-    _Practice book:_ | 'Head First JavaScript Programming'
-    _Interactive book:_ | [LearnJavascript](http://learnJavascript.ru) (in progress)
+| __Additional education:__ |                                                              |                                    |
+|---------------------------|--------------------------------------------------------------|------------------------------------|
+| _Course:_                 | [Software-testing](http://Software-testing.ru)               | 'Intensive course for beginner QA' |
+|                           | [Codeacademy](https://www.codecademy.com/profiles/beez0mbie) | 'Introduction to HTML'             |
+|                           |                                                              | 'Learn CSS'                        |                  
+| _Practice book:_          | 'Head First JavaScript Programming' | |
+| _Interactive book:_       | [LearnJavascript](http://learnJavascript.ru) |(in progress) |
 
 ## English level##
     Started practice on [SkyEng](http://skyeng.ru/) with pre Intermediate level about 1 year ago. 
