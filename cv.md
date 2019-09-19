@@ -79,12 +79,12 @@ At the moment I want to become a front-end (maybe full stack) web developer and 
 
 | __Additional education:__ |                                                              |                                    |
 |---------------------------|--------------------------------------------------------------|------------------------------------|
-| _Course:_                 | [Software-testing](http://Software-testing.ru)               | 'Intensive course for beginner QA' |
-|                           | [Codeacademy](https://www.codecademy.com/profiles/beez0mbie) | 'Introduction to HTML'             |
-|                           |                                                              | 'Learn CSS'                        |                  
-| _Practice book:_          | 'Head First JavaScript Programming' | |
-| _Interactive book:_       | [LearnJavascript](http://learnJavascript.ru) |(in progress) |
+| _Course:_                 | [Software-testing](http://Software-testing.ru)               | "Intensive course for beginner QA" |
+|                           | [Codeacademy](https://www.codecademy.com/profiles/beez0mbie) | "Introduction to HTML"             |
+|                           |                                                              | "Learn CSS"                        |                  
+| _Practice book:_          | "Head First JavaScript Programming"                          |                                    |
+| _Interactive book:_       | [LearnJavascript](https://learn.javascript.ru/)              |(in progress)                       |
 
 ## English level##
-    Started practice on [SkyEng](http://skyeng.ru/) with pre Intermediate level about 1 year ago. 
+Started practice on [SkyEng](http://skyeng.ru/) with pre Intermediate level about 1 year ago. 
 At now continue education with Intermediate level.
