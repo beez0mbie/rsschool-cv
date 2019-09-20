@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", "Arial", sans-serif;
+    background:
+    radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240, 166, 17, 0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240, 166, 17, 0) 0)19px 30px,
+    linear-gradient(#fb1 14%,rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 85%,#fb1 0)0 0,
+    linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240, 166, 17, 0) 0,rgba(240, 166, 17, 0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240, 166, 17, 0) 0,rgba(240, 166, 17, 0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
+    background-size: 40px 60px;
+}
+
+#maindiv {
+    margin: auto;
+    width: 1024px;
+    background: #141E30;
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+}
+.shadow {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+}
+figure {
+    text-align: center;
+}
+img {
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    border: 1.5px solid#fb1;
+}
+
+figcaption {
+    padding-left: 10px;
+    font-family: "Source Code Pro", "Arial", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+    border: 1.5px solid#fb1;
+    border-radius: 3px;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover {
+    border: 1.5px solid #e84b53;
+    background:
+    radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240, 166, 17, 0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240, 166, 17, 0) 0)19px 30px,
+    linear-gradient(#fb1 14%,rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 85%,#fb1 0)0 0,
+    linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240, 166, 17, 0) 0,rgba(240, 166, 17, 0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240, 166, 17, 0) 0,rgba(240, 166, 17, 0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
+    background-size: 40px 60px;
+}
+section h2,p {
+    display: block;
+    margin: auto;
+}
+h1 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    color: white;
+}
+  
+h2 {
+    width: 70%;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.863);
+    color: rgba(255, 255, 255, 1);
+}
+
+.content {
+    margin: 1% 15% 0 15%;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: bisque;
+}
+
+strong {
+    font-weight: 600;
+}
+
+a {
+    color: #FD971F
+}
+
+#education .content {
+    max-width: 716px;
+    margin: 0 auto;
+}
+
+.mainlist {
+    margin-left: 20px; 
+    list-style-type: square;
+}
+.sublist {
+    margin-left: 20px; 
+    list-style-type: circle;
+}
+
+code {
+    display: block;
+    padding: 0 5% 0 5%;
+    font-family: "Source Code Pro", "Tahoma", sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 15px;
+    white-space: pre-wrap;  
+    opacity: 0.9;
+    border-radius: 30px;
+    background:#272822;
+    color: white;
+}
+
+code .var{
+    font-style: italic;
+    color: #66D9EF;
+}
+
+code .func {
+    font-weight: 400;
+    color: #A6E22E;
+}
+
+code .return {
+    font-weight: 400;
+    color: #F92672;
+}
+code .param {
+    font-style: italic;
+    color: #FD971F;
+}
+table {
+    width: 716px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th {
+    font-weight: 600;
+    color: burlywood;
+    border: 1px solid #8c6b48;
+  }
+
+
+td {
+    width: 300px;
+    padding: 5px;
+    vertical-align: middle;
+    border: 1px solid #8c6b48;
+  }
+
+footer {
+    margin: 11% 0 0 10px;
+    font-family: "Source Code Pro", "Tahoma", sans-serif;
+    font-weight: 300;
+    color: #fb1;
+}
+
+footer small,
+       address{
+    display: inline-block;
+}
+
+footer a{
+    color:#B71;
+}
