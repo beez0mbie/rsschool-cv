@@ -93,3 +93,17 @@ h2 {
 .content {
     margin: 1% 15% 0 15%;
 }
+
+footer {
+    margin-top: 70px;
+    color: #fb1;
+}
+
+footer small,
+       address{
+    display: inline-block;
+}
+
+footer a{
+    color:#B71;
+}
