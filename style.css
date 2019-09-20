@@ -78,7 +78,7 @@ h1 {
 }
   
 h2 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.700);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.863);
     color: rgba(255, 255, 255, 0.700);
     font-weight: 600;
     font-size: 22px;
@@ -100,9 +100,29 @@ h2 {
 strong {
     font-weight: 600;
 }
-p {
-    
+
+#education .content {
+    max-width: 716px;
+    margin: 0 auto;
 }
+
+th {
+    font-weight: 600;
+    color: burlywood;
+    border: 1px solid #8c6b48;
+  }
+
+table {
+    width: 716px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+td {
+    border: 1px solid #8c6b48;
+    width: 300px;
+  }
+
 footer {
     font-family: "Source Code Pro";
     font-weight: 300;
