@@ -30,7 +30,7 @@ img {
     width: 25%;
     height: 25%;
     border-radius: 100%;
-    border: 1px solid#fb1;
+    border: 1.5px solid#fb1;
 }
 
 figcaption {
@@ -54,6 +54,8 @@ nav li {
     display: inline-block;
     margin: 5px;
     padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
 }
 nav li a {
     color: black;
@@ -61,7 +63,7 @@ nav li a {
 }
 nav li:hover {
     background: #fb1;
-    border: 1px solid red;
+    border: 1.5px solid #e84b53;
 }
 section h2,p {
     margin: auto;
@@ -79,7 +81,7 @@ h1 {
   
 h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.863);
-    color: rgba(255, 255, 255, 0.700);
+    color: rgba(255, 255, 255, 1);
     font-weight: 600;
     font-size: 22px;
     line-height: 24px;
@@ -94,6 +96,7 @@ h2 {
     margin: 1% 15% 0 15%;
     color: bisque;
     font-size: 17px;
+    font-weight: 300;
     line-height: 30px;
 }
 
