@@ -106,17 +106,26 @@ strong {
     margin: 0 auto;
 }
 
+.mainlist {
+    margin-left: 20px; 
+    list-style-type: square;
+}
+.sublist {
+    margin-left: 20px; 
+    list-style-type: circle;
+}
+table {
+    width: 716px;
+    text-align: center;
+    margin: 20px auto;
+}
+
 th {
     font-weight: 600;
     color: burlywood;
     border: 1px solid #8c6b48;
   }
 
-table {
-    width: 716px;
-    text-align: center;
-    margin: 20px auto;
-}
 
 td {
     border: 1px solid #8c6b48;
