@@ -92,10 +92,21 @@ h2 {
 
 .content {
     margin: 1% 15% 0 15%;
+    color: bisque;
+    font-size: 17px;
+    line-height: 30px;
 }
 
+strong {
+    font-weight: 600;
+}
+p {
+    
+}
 footer {
-    margin-top: 70px;
+    font-family: "Source Code Pro";
+    font-weight: 300;
+    margin: 11% 0 0 10px;
     color: #fb1;
 }
 
