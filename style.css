@@ -114,6 +114,39 @@ strong {
     margin-left: 20px; 
     list-style-type: circle;
 }
+
+code {
+    opacity: 0.9;
+    border-radius: 30px;
+    padding: 0 5% 0 5%;
+    background:#272822;
+    color: white;
+    font-family: "Source Code Pro";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    display: block;
+    white-space: pre-wrap   
+}
+
+code .var{
+    font-style: italic;
+    color: #66D9EF;
+}
+
+code .func {
+    font-weight: 400;
+    color: #A6E22E;
+}
+
+code .return {
+    font-weight: 400;
+    color: #F92672;
+}
+code .param {
+    font-style: italic;
+    color: #FD971F;
+}
 table {
     width: 716px;
     text-align: center;
@@ -128,6 +161,8 @@ th {
 
 
 td {
+    padding: 5px;
+    vertical-align: middle;
     border: 1px solid #8c6b48;
     width: 300px;
   }

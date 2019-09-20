@@ -7,7 +7,7 @@
     <title>CV Front-End developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -105,25 +105,25 @@
             <div class="content">
                 <p>The function gets tweet, find hashtags into it and return to you clear hashtags without '#' symbol.</p>
                 <code>
-                    var getHashTags = function (tweet) {
+<sup class="var">var</sup> getHashTags = <sup class="func">function</sup> (<sup class="param">tweet</sup>) {
     
-                        var hashTags = tweet.split(' ').filter(isHashTagExist)
-                        var clearedHashTags = []
-                        
-                        hashTags.forEach(clearHashtag)
-                    
-                        function isHashTagExist(word) {
-                            return word.startsWith('#')
-                        }
-                    
-                        function clearHashtag (item) {
-                            if (item.length > 1) {
-                                clearedHashTags.push(item.slice(1))
-                            }
-                        }
-                    
-                        return clearedHashTags
-                        };
+    <sup class="var">var</sup> hashTags = tweet.split(' ').filter(<sup class="param">isHashTagExist</sup>)
+    <sup class="var">var</sup> clearedHashTags = []
+
+    hashTags.forEach(<sup class="param">clearHashtag</sup>)
+
+    <sup class="func">function</sup> isHashTagExist(<sup class="param">word</sup>) {
+        <sup class="return">return</sup> word.startsWith('#')
+    }
+
+    <sup class="func">function</sup> clearHashtag (<sup class="param">item</sup>) {
+        if (item.length > 1) {
+            clearedHashTags.push(item.slice(1))
+        }
+    }
+
+    <sup class="return">return</sup> clearedHashTags
+};
                 </code>
             </div>
         </section>
