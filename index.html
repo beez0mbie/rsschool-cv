@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV Front-End developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="shadow" id="maindiv" >
+    <header>
+        <h1>CV Front-End developer</h1>
+        <figure>
+            <img class="shadow" id="avatar" src="./assets/avatar.jpg" alt="avatar" width="260" height="260">
+            <figcaption>z0mbee`s avatar</figcaption>
+        </figure>
+        <nav>
+            <ul>
+                <li class="shadow"><a href="#name">Name</a></li>
+                <li class="shadow"><a href="#contacts">Contact Information</a></li>
+                <li class="shadow"><a href="#summary">Summary Goal</a></li>
+                <li class="shadow"><a href="#skills">Skills</a></li>
+                <li class="shadow"><a href="#code">Code Example</a></li>
+                <li class="shadow"><a href="#experience">Experience</a></li>
+                <li class="shadow"><a href="#education">Education</a></li>
+                <li class="shadow"><a href="#english">English level</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="name">
+            <h2>Name</h2>
+            <div class="content">
+                <p>Alexey Shmelkov</p>
+            </div>
+        </section>
+        <section id="contacts">
+            <h2>Contact Information</h2>
+            <div class="content">
+                <ul>
+                    <li><strong>Email:</strong> alexey.shmelkov@gmail.com</li>
+                    <li><strong>Skype:</strong> alexey.shmelkov@gmail.com</li>
+                    <li><strong>Telegram:</strong> @z0mbee</li>
+                </ul>
+            </div>
+        </section>
+        <section id="summary">
+            <h2>Summary Goal</h2>
+            <div class="content">
+                <p>In the modern world, it`s difficult to find truly high-quality and intuitive software. 
+                    When you find a site or application without a overloaded interface and advertising, it immediately becomes pleasant to your soul, as before when the Internet just appeared and you explored its open spaces. 
+                    I want to return this feeling of nostalgia to myself and others.
+                </p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="content">
+                <ul class="mainlist">
+                    <li>Programming languages:
+                        <ul class="sublist">
+                            <li>Python - basic</li>
+                            <li>JS - basic</li>
+                            <li>C# - low</li>
+                            <li>Java - low</li>
+                        </ul>
+                    </li>
+                    <li>Frameworks:
+                        <ul class="sublist">
+                            <li>Selenium</li>
+                            <li>PyTest</li>
+                            <li>Mocha</li>
+                        </ul>
+                    </li>
+                    <li>Methodologies:
+                        <ul class="sublist">
+                            <li>Unit testing</li>
+                            <li>PageObject model</li>
+                            <li>CI/CD</li>
+                            <li>Agile (Scrum, Kanban)</li>
+                        </ul>
+                    </li>
+                    <li>Version control:
+                        <ul class="sublist">
+                            <li>Git</li>
+                        </ul>
+                    </li>
+                    <li>Tools:
+                        <ul class="sublist">
+                            <li>Jira</li>
+                            <li>Bamboo</li>
+                            <li>BitBucket</li>
+                            <li>Confluence</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="code">
+            <h2>Code Example</h2>
+            <div class="content">
+                <p>The function gets tweet, find hashtags into it and return to you clear hashtags without '#' symbol.</p>
+                <code>
+<sup class="var">var</sup> getHashTags = <sup class="func">function</sup> (<sup class="param">tweet</sup>) {
+    
+    <sup class="var">var</sup> hashTags = tweet.split(' ').filter(<sup class="param">isHashTagExist</sup>)
+    <sup class="var">var</sup> clearedHashTags = []
+
+    hashTags.forEach(<sup class="param">clearHashtag</sup>)
+
+    <sup class="func">function</sup> isHashTagExist(<sup class="param">word</sup>) {
+        <sup class="return">return</sup> word.startsWith('#')
+    }
+
+    <sup class="func">function</sup> clearHashtag (<sup class="param">item</sup>) {
+        if (item.length > 1) {
+            clearedHashTags.push(item.slice(1))
+        }
+    }
+
+    <sup class="return">return</sup> clearedHashTags
+};
+                </code>
+            </div>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="content">
+                <p>I have been working in IT for almost 7 years now:</p>
+                <ul class="mainlist">
+                    <li>Started with an engineer to set up and repair a computers and related equipment.</li>
+                    <li>Then I worked as an assistant of administrator of IT.</li>
+                    <li>Then I got a job as implementation engineer of software for a CCTV development company.</li>
+                    <li>In the same company I became a manual QA, but it quickly got tired and I began to study automated testing.</li>
+                    <li>At the next company, I've been as a full stack QA (manual + automated). We test the web application, which developed on React/Redux stack.</li>
+                </ul>
+                <p>At the moment I want to become a front-end (maybe full stack) web developer and do my best to achieve this goal.</p>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <div class="content">
+                <table id="higher_education">
+                    <tr>
+                        <th colspan="2">Higher education</th>
+                    </tr>
+                    <tr>
+                        <td>University:</td>
+                        <td>Moscow government industrial university (MGIU)</td>
+                    </tr>
+                    <tr>
+                        <td>Faculty:</td>
+                        <td>Economics, Management and Information Technology</td>
+                    </tr>
+                    <tr>
+                        <td>Specialization:</td>
+                        <td>Organization and technology of information security/protection</td>
+                    </tr>
+                </table>
+                <table id="additional_education">
+                   <tr>
+                       <th colspan="3">Additional education:</th>
+                   </tr>
+                   <tr>
+                       <td rowspan="3">Course:</td>
+                       <td><a href="http://Software-testing.ru">Software-testing</a></td>
+                       <td>"Intensive course for beginner QA"</td>
+                   </tr>
+                   <tr>
+                       <td rowspan="2"> <a href="https://www.codecademy.com/profiles/beez0mbie" target="_blank">Codeacademy</a></td>
+                       <td>"Introduction to HTML"</td>
+                   </tr>
+                   <tr>
+                       <td>"Learn CSS"</td>
+                   </tr>
+                   <tr>
+                       <td>Practice book:</td>
+                       <td>"Head First JavaScript Programming"</td>
+                       <td></td>
+                   </tr>
+                   <tr>
+                       <td>Interactive book:</td>
+                       <td><a href="https://learn.javascript.ru/" target="_blank">LearnJavascript</a></td>
+                       <td></td>
+                   </tr>
+                </table>
+            </div>
+        </section>
+        <section id="english">
+            <h2>English level</h2>
+            <div class="content">
+                <p>Started practice on <a href="http://skyeng.ru/" target="_blank">SkyEng</a> with pre Intermediate level about 1 year ago. At now continue education with Intermediate level.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <small>&#169; by z0mbee</small>
+        <address><a href="https://github.com/beez0mbie" target="_blank">github.com/beez0mbie</a></address>
+    </footer>
+    </div>
+</body>
+</html>
