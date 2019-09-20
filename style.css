@@ -101,6 +101,10 @@ strong {
     font-weight: 600;
 }
 
+a {
+    color: #FD971F
+}
+
 #education .content {
     max-width: 716px;
     margin: 0 auto;
